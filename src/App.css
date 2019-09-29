@@ -101,20 +101,26 @@ margin: auto;
 .about{
   background-color: aquamarine;
 }
-.card{
+.aboutCard{
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
   font-family: 'Cute Font';
+  
   
 }
 
 
 .aboutName{
   font-size: 3em;
-  color: aqua;
+
   
   
+}
+
+.aboutText{
+  font-size: 2em;
+
 }
 
 .aboutNSA{
@@ -135,14 +141,61 @@ margin: auto;
   font-family: 'Cute Font';
   font-size: 5em;
   margin:20px;
-  padding: 10px;
-
+ 
 }
+.aboutLogo{
+  border: 10px;
+}
+.logo{
+  
+ font-size: 5em;
+ margin-left:20px;
+}
+
+
+
 
 
 /*   About Page Style End*/
 
 
+
+/*   Project Page Style Start*/
+.projectTitle{
+ font-family: 'Cute Font';
+ padding: 3px;
+ font-size: 3em;
+ text-align: center;
+  
+}
+.projectCard{
+  display:grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-row-gap: 50px;
+  font-family: 'Cute Font';
+  padding:20px;
+  
+}
+.projectName
+{
+  font-size: 3em;
+  color: aqua;
+  
+  
+}
+
+.projectText{
+  font-size: 2em;
+
+}
+
+.projectDescription{
+  font-size: 2em;
+}
+
+
+
+/*   Project Page Style End*/
 
 
 
