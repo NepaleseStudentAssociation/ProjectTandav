@@ -17,13 +17,16 @@ function App() {
 
 
             {
-            <Navigation>
+            <Navigation className="header-color">
             
                 <Link   to ="/home"><p className="name"><i class="fa fa-home" aria-hidden="true"/> home</p> </Link >
                 <Link  to ="/about_us"><p className="name"><i class="fa fa-id-badge" aria-hidden="true"/> about us </p></Link >
                 <Link  to ="/projects"><p className="name"><i class="fa fa-database" aria-hidden="true"/> projects </p></Link >
                 <Link  to ="/resources"><p className="name"><i class="fa fa-folder" aria-hidden="true"/> resources </p></Link >
-                <Link  to ="/contact"><p className="name"><i class="fa fa-comments" aria-hidden="true"/> contact us </p></Link >
+                <Link  to ="/contact"><p className="name"><i class="fa fa-envelope" aria-hidden="true"/> sign up </p></Link >
+                
+
+                
                 
             </Navigation>
             }
