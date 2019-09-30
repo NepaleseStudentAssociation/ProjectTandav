@@ -56,8 +56,8 @@ class AboutUS extends Component{
 				{details.title}<br/> {details.name}
 				</CardTitle>
 				<CardText>
-				<a href={details.fb}><i class="fa fa-facebook" aria-hidden="true" ></i></a>
-				<a href={details.li} style={{ padding: 10}}  ><i class="fa fa-linkedin" aria-hidden="true" ></i></a>
+				<a href={details.fb} target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"  ></i></a>
+				<a href={details.li} style={{ padding: 10} } target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"  ></i></a>
 				
 				
 				</CardText>
@@ -92,10 +92,12 @@ class AboutUS extends Component{
 					Connect with us in the following platforms
 				</p>
 				<div class="aboutLogo">
-				<a className="logo" href= "https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
-				<a className="logo" href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" ></i></a>
-				<a className="logo" href="https://github.com" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i></a>
-				<a className="logo" href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+				<a className="logo" href= "https://www.facebook.com/nsaccny19/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" ></i></a>
+				<a className="logo" href="https://www.linkedin.com/company/nsa-ccny" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" ></i></a>
+				<a className="logo" href="https://github.com/NepaleseStudentAssociation" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" ></i></a>
+				<a className="logo" href="https://www.instagram.com/nsa_ccny/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"  ></i></a>
+				<a className="logo" href="mailto:nsaccny19@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" ></i></a>
+
 				</div>
 			
 			

@@ -16,7 +16,7 @@ function App() {
         <Header className="header-color" >
 
 
-            {
+       
             <Navigation className="header-color">
             
                 <Link   to ="/home"><p className="name"><i class="fa fa-home" aria-hidden="true"/> home</p> </Link >
@@ -26,10 +26,12 @@ function App() {
                 <Link  to ="/contact"><p className="name"><i class="fa fa-envelope" aria-hidden="true"/> sign up </p></Link >
                 
 
-                
+               
                 
             </Navigation>
-            }
+       
+            
+            
         </Header>
             
         <Content> 

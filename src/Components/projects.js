@@ -58,10 +58,10 @@ const details=[
 		 second:"Second Bullet",
 		 third: "Third Bullet"
 		},
-		pic:"url(http://gbsnote.com/wp-content/uploads/tihar-1-1.jpg) center/cover",
+		pic:"url(http://deependrac.com.np/wp-content/uploads/2015/07/dashaintihar_zpsa2827b69.jpg) center/cover",
 		contact:"Shailesh Ghale",
 		email:"mailto:ghale112@gmail.com",
-		link:"https://github.com",
+		link:"https://bit.ly/dashaintihar2019",
 		
 
 
@@ -86,7 +86,7 @@ class projects extends Component{
 
 				</ul>
 				Project Manager: <a href={details.email}>{details.contact}</a><br/>
-				<a href={details.link} target="_blank"><i  aria-hidden="true" >details</i></a><br/>
+				<a href={details.link} target="_blank" rel="noopener noreferrer"> details</a><br/>
 				
 				
 				</CardText>

@@ -45,6 +45,13 @@ class Home extends Component{
        	 
       	</div>
     	</Slide>
+
+		<Slide right>
+      	<div className="carouselFirst" style={{background: 'url(https://upload.wikimedia.org/wikipedia/commons/4/43/Kanchanjunga_mountain_range_06.jpg)center / cover'}} >
+        	<h1 className="headerFirst"><a href="/contact">Sign Up for our newsletter</a></h1>
+       	 
+      	</div>
+    	</Slide>
   	</Carousel>
 
 	
