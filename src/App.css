@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
 @import url(https://fonts.googleapis.com/css?family=Mansalva:400,500);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500);
-@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:100,200);
 @import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
 @import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
 
@@ -17,7 +17,7 @@
 }
 
 .name{
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   font-size: 2em;
 }
 
@@ -84,7 +84,7 @@ margin: auto;
   left:0;
   right:0;
   font-size: 9em;
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   color :white;
 }
 
@@ -105,7 +105,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   
   
 }
@@ -124,7 +124,7 @@ margin: auto;
 }
 
 .aboutNSA{
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
  padding: 3px;
  font-size: 3em;
  text-align: center;
@@ -132,13 +132,13 @@ margin: auto;
 }
 
 .aboutNSA+p{
-  font-family :"Roboto Mono";
+  font-family :"Source Serif Pro";
 
 }
 
 
 .aboutBio{
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   font-size: 5em;
   margin:20px;
   padding:20px;
@@ -160,7 +160,7 @@ margin: auto;
 
 /*   Project Page Style Start*/
 .projectTitle{
- font-family: 'Cute Font';
+ font-family: 'Source Serif Pro';
  padding: 3px;
  font-size: 3em;
  text-align: center;
@@ -170,7 +170,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   padding:20px;
   
 }
@@ -204,7 +204,7 @@ margin: auto;
 
 
 .resourcesTitle{
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   padding: 3px;
   font-size: 8em;
   text-align: center;
@@ -215,7 +215,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   padding:20px;
   
 }
@@ -231,7 +231,7 @@ margin: auto;
 
 }
 .resourcesButton{
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   font-size: 2em;
 
  
@@ -255,7 +255,7 @@ margin: auto;
 }
 .footer-notes{
   text-align: center;
-  font-family: 'Cute Font';
+  font-family: 'Source Serif Pro';
   position: relative;
 }
 
