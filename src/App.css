@@ -17,7 +17,7 @@
 }
 
 .name{
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   font-size: 2em;
 }
 
@@ -84,7 +84,7 @@ margin: auto;
   left:0;
   right:0;
   font-size: 9em;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   color :white;
 }
 
@@ -105,7 +105,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   
   
 }
@@ -124,7 +124,7 @@ margin: auto;
 }
 
 .aboutNSA{
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
  padding: 3px;
  font-size: 3em;
  text-align: center;
@@ -132,13 +132,13 @@ margin: auto;
 }
 
 .aboutNSA+p{
-  font-family :"Source Serif Pro";
+  font-family :"Mansalva";
 
 }
 
 
 .aboutBio{
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   font-size: 5em;
   margin:20px;
   padding:20px;
@@ -160,7 +160,7 @@ margin: auto;
 
 /*   Project Page Style Start*/
 .projectTitle{
- font-family: 'Source Serif Pro';
+ font-family: 'Cute Font';
  padding: 3px;
  font-size: 3em;
  text-align: center;
@@ -170,7 +170,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   padding:20px;
   
 }
@@ -204,7 +204,7 @@ margin: auto;
 
 
 .resourcesTitle{
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   padding: 3px;
   font-size: 8em;
   text-align: center;
@@ -215,7 +215,7 @@ margin: auto;
   display:grid;
   grid-template-columns: 1fr 1fr; 
   grid-row-gap: 50px;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   padding:20px;
   
 }
@@ -231,7 +231,7 @@ margin: auto;
 
 }
 .resourcesButton{
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   font-size: 2em;
 
  
@@ -255,7 +255,7 @@ margin: auto;
 }
 .footer-notes{
   text-align: center;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cute Font';
   position: relative;
 }
 
