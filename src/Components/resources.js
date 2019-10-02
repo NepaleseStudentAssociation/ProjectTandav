@@ -21,12 +21,14 @@ const details=[
 	{
 		name: "Project Work division",
 		description:"Work load is divided on the basis of frontend, backend & database. Please check out for detail roles. ",
+		pic:" ",
 		link:" https://files.slack.com/files-pri/TNX04UK46-FNQAV4741/screen_shot_2019-09-30_at_6.38.38_pm.png"
 		
 	},
 	{
 		name:"Basic UI Management",
 		description:"Brief description about user interface with branches and git tools",
+		pic:"",
 		link:" https://files.slack.com/files-pri/TNX04UK46-FNZ1R3EK0/github_branching_instruction_v1-13.jpg"
 	},
 
