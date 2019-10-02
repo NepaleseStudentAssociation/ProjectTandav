@@ -16,7 +16,22 @@ const details=[
 		pic:"url(https://dwa5x7aod66zk.cloudfront.net/assets/pack/opengraph-image-c6d692948bb5fbf237b8a72d6576b4dcc84586335b522a6036904fc16ec7eccd.png) center/cover",
 		link:"https://education.github.com/pack?fbclid=IwAR3ukI2CU_BU5ZCXQOQhxbr_eh2_A37aSIn4p44vZ11W4TL8u_ZNxE3Owzo"
 
-	}
+	},
+
+	{
+		name: "Project Work division",
+		description:"Work load is divided on the basis of frontend, backend & database. Please check out for detail roles. ",
+		pic:" ",
+		link:" https://files.slack.com/files-pri/TNX04UK46-FNQAV4741/screen_shot_2019-09-30_at_6.38.38_pm.png"
+		
+	},
+	{
+		name:"Basic UI Management",
+		description:"Brief description about user interface with branches and git tools",
+		pic:"",
+		link:" https://files.slack.com/files-pri/TNX04UK46-FNZ1R3EK0/github_branching_instruction_v1-13.jpg"
+	},
+
 ]
 class Resources extends Component{
 	render(){
@@ -25,7 +40,7 @@ class Resources extends Component{
 		const slides = details.map((details) => {
 			return (
 				
-				<Card  shadow={4} style={{width: '400px', height: '420px', margin: 'auto' }}>
+				<Card  shadow={4} style={{width: '400px', height: '450px', margin: 'auto' }}>
 				<CardTitle  expand	 style={{color: '#fff', background:details.pic }}>
 				</CardTitle>
 				<CardText class="resourcesText">
