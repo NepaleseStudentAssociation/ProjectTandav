@@ -1,0 +1,43 @@
+/*   Resources Page Style Start*/
+
+
+.resourcesTitle{
+    font-family: 'Cute Font';
+    padding: 3px;
+    font-size: 8em;
+    text-align: center;
+     
+   }
+  
+  .resourcesCard{
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-row-gap: 50px;
+    font-family: 'Cute Font';
+    padding:20px;
+    
+  }
+  
+  .resourcesText{
+    padding:10px;
+    font-size: 2em;
+  
+  }
+  .resourcesPara{
+    padding:15px;
+    font-size: 1em;
+  
+  }
+  .resourcesButton{
+    font-family: 'Cute Font';
+    font-size: 2em;
+  
+   
+  }
+  
+  /*    Resources Page Style End*/
+  
+  
+  
+  
+  

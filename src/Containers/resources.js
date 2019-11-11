@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText,Button} from 'react-mdl';
-
+import './resources.css'
 
 const details=[
 	{

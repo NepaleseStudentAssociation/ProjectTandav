@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+.Header {
+    position: fixed;
+    /*top: 0; /* Stick it to the top */
+    height: 50px;
+    max-height: 80px;
+    width: 100vw;
+  
+    display: grid;
+    grid-template-areas: "logo nav";
+  
+    /* Cosmetics */
+    background-color: #282c34;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .Logo {
+    grid-area: logo;
+    height: 70px;
+  }
+  
+  .Nav {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+    
+      font-family: 'Cute Font';
+      font-size: 2em;
+    
+  }
+  .Nav a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .Nav a:hover {
+    transform: scale(1.1);
+  }
+  .Nav button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 5px 0px 0px rgba(255, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 70ms;
+  }
+  
+  .Nav button:active {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
+  }
+  
+  .Icon {
+    display: none;
+    grid-area: icon;
+    margin: 0 20px 0 0;
+    padding: 0;
+    justify-self: end;
+    font-size: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.1s;
+  }
+  .Icon:active {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 700px) {
+    .Header {
+      grid-template-areas: "logo icon" "nav nav";
+    }
+    .Nav {
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: none;
+      grid-row-gap: 20px;
+  
+      padding: 30px 0 30px;
+      background: rgba(40, 44, 47, 0.95);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .Icon{
+      display: inline;
+    }
+  }
+  
+  .NavAnimation-enter {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  .NavAnimation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 350ms, transform 350ms;
+  }
+  .NavAnimation-exit {
+    opacity: 1;
+  }
+  .NavAnimation-exit-active {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 350ms, transform 350ms;
+  }
+  

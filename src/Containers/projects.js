@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText} from 'react-mdl';
+import './project.css'
 
 
 

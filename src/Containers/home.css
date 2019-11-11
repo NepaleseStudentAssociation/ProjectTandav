@@ -1,0 +1,31 @@
+
+@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+@import url(https://fonts.googleapis.com/css?family=Mansalva:400,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:100,200);
+@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+
+/*   Home Page Carousel Style Begin*/
+.carouselFirst{
+ 
+    position: absolute;
+    width: 100%;
+      height: 100%;
+  
+      
+    
+    text-align: center;
+    justify-self: end;
+  
+  }
+  
+  .headerFirst{
+    position:absolute;                  
+    top:0;                          
+    left:0;
+    right:0;
+    font-size: 9em;
+    font-family: 'Cute Font';
+    color :white;
+  }

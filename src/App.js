@@ -1,43 +1,54 @@
 import React from 'react';
 import './App.css';
 import {Layout,
-        Header, Navigation, Drawer,
+         Navigation, Drawer,
         Content, 
         Footer, FooterSection,FooterLinkList,FooterDropDownSection} from 'react-mdl';
 
+        
+import Router from './Router';
+import Header from  './Components/header.js';
 
-import Main from './Components/main';
-import {Link} from 'react-router-dom';
+
+
+//import {Link} from 'react-router-dom';
 
 function App() {
   return (
   <div className="demo-big-content">
       <Layout>
-        <Header className="header-color" >
+       
 
 
        
-            <Navigation className="header-color">
+            {/**<Navigation className="header-color">
             
-                <Link   to ="/home"><p className="name"><i class="fa fa-home" aria-hidden="true"/> home</p> </Link >
-                <Link  to ="/about_us"><p className="name"><i class="fa fa-id-badge" aria-hidden="true"/> about us </p></Link >
-                <Link  to ="/projects"><p className="name"><i class="fa fa-database" aria-hidden="true"/> projects </p></Link >
-                <Link  to ="/resources"><p className="name"><i class="fa fa-folder" aria-hidden="true"/> resources </p></Link >
-                <Link  to ="/contact"><p className="name"><i class="fa fa-envelope" aria-hidden="true"/> sign up </p></Link >
+                <Link   to ="/home"><p className="name"><i className="fa fa-home" aria-hidden="true"/> home</p> </Link >
+                <Link  to ="/about_us"><p className="name"><i className="fa fa-id-badge" aria-hidden="true"/> about us </p></Link >
+                <Link  to ="/projects"><p className="name"><i className="fa fa-database" aria-hidden="true"/> projects </p></Link >
+                <Link  to ="/resources"><p className="name"><i className="fa fa-folder" aria-hidden="true"/> resources </p></Link >
+                <Link  to ="/contact"><p className="name"><i className="fa fa-envelope" aria-hidden="true"/> sign up </p></Link >
                 
-
+  
                
                 
             </Navigation>
+            **/}
        
             
             
-        </Header>
+        
             
         <Content> 
-            <div className="page-content" />
-            <Main/>
+           
+           <div className="page-content" />
+           <Header />
+            
+             
         </Content>
+        
+        <Router/>
+        
         
         <Footer className="footer-color">
             

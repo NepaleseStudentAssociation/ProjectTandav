@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Layout, Card,CardTitle,CardText,CardActions,Button} from 'react-mdl';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-
+import "./home.css"
 import makeCarousel from 'react-reveal/makeCarousel';
 // we'll need the Slide component for sliding animations
 // but you can use any other effect
@@ -18,17 +18,19 @@ class Home extends Component{
 
 	render(){
 		const Container = styled.div`
-  	border: 0px solid red;
+  	
   	position: absolute;
   	width: 100%;
 	height: 100%;
-	min-height:600px;
+	
 	
 `	;
 	const CarouselUI = ({ children }) => <Container>{children}</Container>;
 	const Carousel = makeCarousel(CarouselUI);
 
-		return(<div >
+		return(
+		
+		<div>
     
 
 	<Carousel defaultWait={2000} /*wait for 1000 milliseconds*/ >
