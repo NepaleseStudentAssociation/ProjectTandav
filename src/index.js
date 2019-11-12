@@ -1,19 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import 'react-mdl/extra/material.css';
-import 'react-mdl/extra/material.js';
-import {BrowserRouter} from 'react-router-dom';
+import initTilt from './js/tilt';
+import initSr from './js/sr';
+import './style/main.scss';
 
-ReactDOM.render(
-	<BrowserRouter>
-		<App />
-	</BrowserRouter>
-	, document.getElementById('root'));
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if (target.length) {
+    event.preventDefault();
+    $('html, body')
+      .stop()
+      .animate(
+        {
+          scrollTop: target.offset().top
+        },
+        1000
+      );
+  }
+});
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+initSr();
+initTilt();
