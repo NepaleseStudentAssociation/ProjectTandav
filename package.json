@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "mdbreact": "^4.20.0",
+    "openssl": "^1.1.0",
     "react": "^16.8.6",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^16.8.6",
